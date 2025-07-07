@@ -23,18 +23,32 @@
 
 ---
 
-## 🚀 Getting Started
+🚀 Getting Started
+Prerequisites
+Visual Studio 2019 or newer
 
-### Prerequisites
+SQL Server (LocalDB or Express)
 
-- Visual Studio 2019 or newer
-- SQL Server (LocalDB or Express)
-- .NET Framework 4.7.2 or later
+.NET Framework 4.7.2 or later
 
-### Setup Instructions
+Setup Instructions
+Clone the repository:
 
-1. **Clone the repository:**
+git clone https://github.com/nethmi2024/PlanPro.git
+cd PlanPro
 
-   ```bash
-   git clone https://github.com/nethmi2024/PlanPro.git
-   cd PlanPro
+Set up the database connection:
+
+Open the Web.config file and update the <connectionStrings> section with your own SQL Server credentials:
+
+<connectionStrings>
+  <add name="DefaultConnection" 
+       connectionString="Data Source=YOUR_SERVER_NAME;Initial Catalog=PlanProDB;Integrated Security=True" 
+       providerName="System.Data.SqlClient" />
+</connectionStrings>
+
+Build and run the application:
+
+Open the solution in Visual Studio.
+Build the project to restore dependencies.
+Run the application using F5 or the green Start button.
