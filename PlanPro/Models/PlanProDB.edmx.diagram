@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="649cebf3dc344a3f823b31e8ba887755" Name="Diagram1" ZoomLevel="77">
+        <EntityTypeShape EntityType="Model.User" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.TodoItem" Width="1.5" PointX="3" PointY="5.375" />
+        <AssociationConnector Association="Model.FK__TodoItems__UserI__286302EC" />
+        <EntityTypeShape EntityType="Model.FinancialGoal" Width="1.5" PointX="3" PointY="9.75" />
+        <EntityTypeShape EntityType="Model.MonthlyIncome" Width="1.5" PointX="8.375" PointY="3.75" />
+        <AssociationConnector Association="Model.FK_FinancialGoals_Users" />
+        <AssociationConnector Association="Model.FK_MonthlyIncomes_Users" />
+        <EntityTypeShape EntityType="Model.Expense" Width="1.5" PointX="3" PointY="1.125" />
+        <AssociationConnector Association="Model.FK_Expense_Users" />
+        <EntityTypeShape EntityType="Model.TravelPlan" Width="1.5" PointX="6" PointY="4.75" />
+        <AssociationConnector Association="Model.FK_TravelPlan_User" />
+        <EntityTypeShape EntityType="Model.DayPlan" Width="1.5" PointX="13.5" PointY="7.875" />
+        <EntityTypeShape EntityType="Model.Itinerary" Width="1.5" PointX="9" PointY="7.625" />
+        <AssociationConnector Association="Model.FK_DayPlans_Itineraries" />
+        <AssociationConnector Association="Model.FK_Itineraries_TravelPlans" />
+        <EntityTypeShape EntityType="Model.GalleryFolder" Width="1.5" PointX="0.5" PointY="13" />
+        <EntityTypeShape EntityType="Model.GalleryImage" Width="1.5" PointX="4.25" PointY="13" />
+        <AssociationConnector Association="Model.FK_GalleryFolders_Users" />
+        <AssociationConnector Association="Model.FK_GalleryImages_Folders" />
+        <EntityTypeShape EntityType="Model.Message" Width="1.5" PointX="6" PointY="1.25" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

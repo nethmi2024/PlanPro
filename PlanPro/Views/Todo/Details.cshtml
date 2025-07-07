@@ -1,0 +1,161 @@
+﻿@model PlanPro.Models.TodoItem
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+
+    .body {
+        color: #2e3a59;
+        line-height: 1.6;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .col-md-8.col-lg-7 {
+        max-width: 100%;
+    }
+
+    .card {
+        background: #fff;
+        border-radius: 1.5rem;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+        transition: box-shadow 0.3s ease;
+        padding: 2.5rem 2rem;
+    }
+
+        .card:hover {
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+        }
+
+    h2.text-primary {
+        font-weight: 700;
+        font-size: 2.25rem;
+        color: #4e73df;
+        margin-bottom: 2rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+        h2.text-primary i {
+            color: inherit;
+            font-size: 2.5rem;
+            vertical-align: middle;
+            margin-right: 0.5rem;
+        }
+
+
+    .detail-label {
+        font-weight: 600;
+        font-size: 1.125rem;
+        color: #374151;
+        margin-bottom: 0.2rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+
+    .detail-value {
+        font-size: 1.125rem;
+        color: #4b5563;
+        margin-bottom: 1.8rem;
+        padding-left: 0.3rem;
+        border-left: 3px solid #4e73df;
+        transition: border-color 0.3s ease;
+    }
+
+        .detail-value:hover {
+            border-left-color: #1cc88a;
+        }
+
+    .btn-style {
+        text-decoration: none;
+        padding: 0.6rem 1.2rem;
+        font-size: 1.1rem;
+        font-weight: 600;
+        border-radius: 0.75rem;
+        transition: all 0.3s ease-in-out;
+        display: inline-block;
+    }
+
+    .btn-edit {
+        background: linear-gradient(to right, #4e73df, #1cc88a);
+        color: #fff !important;
+        border: none;
+    }
+
+        .btn-edit:hover {
+            background: linear-gradient(to right, #3a66d2, #17b67d);
+            transform: scale(1.02);
+            color: #fff !important;
+        }
+
+    .btn-back {
+        color: #6c757d !important;
+        background: transparent;
+        border: none;
+    }
+
+        .btn-back:hover {
+            color: #1cc88a !important;
+        }
+
+    @@media (max-width: 576px) {
+        .card {
+            padding: 1.5rem 1rem;
+        }
+
+        h2.text-primary {
+            font-size: 1.75rem;
+        }
+
+        .detail-label, .detail-value, .btn-style {
+            font-size: 1rem;
+        }
+
+        .btn-style {
+            padding: 0.5rem 1rem;
+        }
+    }
+</style>
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-7">
+            <div class="card">
+                <h2 class="text-primary">
+                    <i class="bi bi-info-circle"></i> Details
+                </h2>
+
+                <div>
+                    <div class="detail-label">@Html.DisplayNameFor(model => model.Title)</div>
+                    <div class="detail-value">@Html.DisplayFor(model => model.Title)</div>
+
+                    <div class="detail-label">@Html.DisplayNameFor(model => model.Description)</div>
+                    <div class="detail-value">@Html.DisplayFor(model => model.Description)</div>
+
+                    <div class="detail-label">@Html.DisplayNameFor(model => model.DueDate)</div>
+                    <div class="detail-value">@Html.DisplayFor(model => model.DueDate)</div>
+
+                    <div class="detail-label">@Html.DisplayNameFor(model => model.IsCompleted)</div>
+                    <div class="detail-value">@Html.DisplayFor(model => model.IsCompleted)</div>
+
+                    <div class="detail-label">@Html.DisplayNameFor(model => model.Priority)</div>
+                    <div class="detail-value">@Html.DisplayFor(model => model.Priority)</div>
+
+                    <div class="detail-label">@Html.DisplayNameFor(model => model.CreatedAt)</div>
+                    <div class="detail-value">@Html.DisplayFor(model => model.CreatedAt)</div>
+
+                </div>
+
+                <div class="d-flex justify-content-between mt-4">
+                    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }, new { @class = "btn-style btn-edit" })
+                    @Html.ActionLink("← Back to List", "Index", null, new { @class = "btn-style btn-back" })
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />

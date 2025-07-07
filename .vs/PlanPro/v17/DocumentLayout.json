@@ -1,0 +1,710 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Nethmi\\PlanPro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|e:\\nethmi\\planpro\\planpro\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\controllers\\financialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\controllers\\financialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\controllers\\gallerycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\controllers\\gallerycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\controllers\\travelplanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\controllers\\travelplanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\models\\galleryfolder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\models\\galleryfolder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\views\\todo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\views\\todo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\views\\financial\\charts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\views\\financial\\charts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\views\\financial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\views\\financial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\views\\gallery\\createfolder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\views\\gallery\\createfolder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\views\\gallery\\createimage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\views\\gallery\\createimage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\views\\gallery\\folder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\views\\gallery\\folder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\views\\gallery\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\views\\gallery\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\views\\todo\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\views\\todo\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\views\\todo\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\views\\todo\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\views\\todo\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\views\\todo\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\views\\todo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\views\\todo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\views\\travelplans\\adddayplan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\views\\travelplans\\adddayplan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\views\\travelplans\\additinerary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\views\\travelplans\\additinerary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\views\\travelplans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\views\\travelplans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\views\\travelplans\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\views\\travelplans\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\views\\travelplans\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\views\\travelplans\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\views\\travelplans\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\views\\travelplans\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\views\\travelplans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\views\\travelplans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\views\\travelplans\\itinerary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\views\\travelplans\\itinerary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\models\\planprodb.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\models\\planprodb.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\models\\resetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\models\\resetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\models\\financialoverviewviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\models\\financialoverviewviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|E:\\Nethmi\\PlanPro\\planpro\\helpers\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C56655-8CDB-4252-886E-5924DB922E75}|PlanPro\\PlanPro.csproj|solutionrelative:planpro\\helpers\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 44,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GalleryFolder.cs",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Models\\GalleryFolder.cs",
+              "RelativeDocumentMoniker": "PlanPro\\Models\\GalleryFolder.cs",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Models\\GalleryFolder.cs",
+              "RelativeToolTip": "PlanPro\\Models\\GalleryFolder.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T11:36:40.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateImage.cshtml",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Gallery\\CreateImage.cshtml",
+              "RelativeDocumentMoniker": "PlanPro\\Views\\Gallery\\CreateImage.cshtml",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Gallery\\CreateImage.cshtml",
+              "RelativeToolTip": "PlanPro\\Views\\Gallery\\CreateImage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-04T10:13:25.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Folder.cshtml",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Gallery\\Folder.cshtml",
+              "RelativeDocumentMoniker": "PlanPro\\Views\\Gallery\\Folder.cshtml",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Gallery\\Folder.cshtml",
+              "RelativeToolTip": "PlanPro\\Views\\Gallery\\Folder.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-04T10:12:40.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateFolder.cshtml",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Gallery\\CreateFolder.cshtml",
+              "RelativeDocumentMoniker": "PlanPro\\Views\\Gallery\\CreateFolder.cshtml",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Gallery\\CreateFolder.cshtml",
+              "RelativeToolTip": "PlanPro\\Views\\Gallery\\CreateFolder.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-04T10:10:16.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Gallery\\Index.cshtml",
+              "RelativeDocumentMoniker": "PlanPro\\Views\\Gallery\\Index.cshtml",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Gallery\\Index.cshtml",
+              "RelativeToolTip": "PlanPro\\Views\\Gallery\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-04T09:18:36.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GalleryController.cs",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Controllers\\GalleryController.cs",
+              "RelativeDocumentMoniker": "PlanPro\\Controllers\\GalleryController.cs",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Controllers\\GalleryController.cs",
+              "RelativeToolTip": "PlanPro\\Controllers\\GalleryController.cs",
+              "ViewState": "AgIAAEkBAAAAAAAAAAAxwE8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T09:12:45.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AddDayPlan.cshtml",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\TravelPlans\\AddDayPlan.cshtml",
+              "RelativeDocumentMoniker": "PlanPro\\Views\\TravelPlans\\AddDayPlan.cshtml",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\TravelPlans\\AddDayPlan.cshtml",
+              "RelativeToolTip": "PlanPro\\Views\\TravelPlans\\AddDayPlan.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-03T10:42:47.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AddItinerary.cshtml",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\TravelPlans\\AddItinerary.cshtml",
+              "RelativeDocumentMoniker": "PlanPro\\Views\\TravelPlans\\AddItinerary.cshtml",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\TravelPlans\\AddItinerary.cshtml",
+              "RelativeToolTip": "PlanPro\\Views\\TravelPlans\\AddItinerary.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-03T10:42:16.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Itinerary.cshtml",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\TravelPlans\\Itinerary.cshtml",
+              "RelativeDocumentMoniker": "PlanPro\\Views\\TravelPlans\\Itinerary.cshtml",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\TravelPlans\\Itinerary.cshtml",
+              "RelativeToolTip": "PlanPro\\Views\\TravelPlans\\Itinerary.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-03T10:41:46.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\TravelPlans\\Delete.cshtml",
+              "RelativeDocumentMoniker": "PlanPro\\Views\\TravelPlans\\Delete.cshtml",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\TravelPlans\\Delete.cshtml",
+              "RelativeToolTip": "PlanPro\\Views\\TravelPlans\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-03T10:11:54.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\TravelPlans\\Details.cshtml",
+              "RelativeDocumentMoniker": "PlanPro\\Views\\TravelPlans\\Details.cshtml",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\TravelPlans\\Details.cshtml",
+              "RelativeToolTip": "PlanPro\\Views\\TravelPlans\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-03T10:05:08.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\TravelPlans\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PlanPro\\Views\\TravelPlans\\Edit.cshtml",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\TravelPlans\\Edit.cshtml",
+              "RelativeToolTip": "PlanPro\\Views\\TravelPlans\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-03T09:56:42.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\TravelPlans\\Create.cshtml",
+              "RelativeDocumentMoniker": "PlanPro\\Views\\TravelPlans\\Create.cshtml",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\TravelPlans\\Create.cshtml",
+              "RelativeToolTip": "PlanPro\\Views\\TravelPlans\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-03T09:22:56.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\TravelPlans\\Index.cshtml",
+              "RelativeDocumentMoniker": "PlanPro\\Views\\TravelPlans\\Index.cshtml",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\TravelPlans\\Index.cshtml",
+              "RelativeToolTip": "PlanPro\\Views\\TravelPlans\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-03T09:12:11.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TravelPlansController.cs",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Controllers\\TravelPlansController.cs",
+              "RelativeDocumentMoniker": "PlanPro\\Controllers\\TravelPlansController.cs",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Controllers\\TravelPlansController.cs",
+              "RelativeToolTip": "PlanPro\\Controllers\\TravelPlansController.cs",
+              "ViewState": "AgIAAB8BAAAAAAAAAAAxwCYBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T08:31:59.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Charts.cshtml",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Financial\\Charts.cshtml",
+              "RelativeDocumentMoniker": "PlanPro\\Views\\Financial\\Charts.cshtml",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Financial\\Charts.cshtml",
+              "RelativeToolTip": "PlanPro\\Views\\Financial\\Charts.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-03T06:06:16.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Financial\\Index.cshtml",
+              "RelativeDocumentMoniker": "PlanPro\\Views\\Financial\\Index.cshtml",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Financial\\Index.cshtml",
+              "RelativeToolTip": "PlanPro\\Views\\Financial\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T18:33:01.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FinancialController.cs",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Controllers\\FinancialController.cs",
+              "RelativeDocumentMoniker": "PlanPro\\Controllers\\FinancialController.cs",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Controllers\\FinancialController.cs",
+              "RelativeToolTip": "PlanPro\\Controllers\\FinancialController.cs",
+              "ViewState": "AgIAAOUAAAAAAAAAAAAAwOoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T18:30:54.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "FinancialOverviewViewModel.cs",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Models\\FinancialOverviewViewModel.cs",
+              "RelativeDocumentMoniker": "PlanPro\\Models\\FinancialOverviewViewModel.cs",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Models\\FinancialOverviewViewModel.cs",
+              "RelativeToolTip": "PlanPro\\Models\\FinancialOverviewViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T18:13:10.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Todo\\Delete.cshtml",
+              "RelativeDocumentMoniker": "PlanPro\\Views\\Todo\\Delete.cshtml",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Todo\\Delete.cshtml",
+              "RelativeToolTip": "PlanPro\\Views\\Todo\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T08:40:02.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Todo\\Details.cshtml",
+              "RelativeDocumentMoniker": "PlanPro\\Views\\Todo\\Details.cshtml",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Todo\\Details.cshtml",
+              "RelativeToolTip": "PlanPro\\Views\\Todo\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T08:06:54.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Todo\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PlanPro\\Views\\Todo\\Edit.cshtml",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Todo\\Edit.cshtml",
+              "RelativeToolTip": "PlanPro\\Views\\Todo\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T17:52:36.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Todo\\Create.cshtml",
+              "RelativeDocumentMoniker": "PlanPro\\Views\\Todo\\Create.cshtml",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Todo\\Create.cshtml",
+              "RelativeToolTip": "PlanPro\\Views\\Todo\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJMAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T17:52:27.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Todo\\Index.cshtml",
+              "RelativeDocumentMoniker": "PlanPro\\Views\\Todo\\Index.cshtml",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Todo\\Index.cshtml",
+              "RelativeToolTip": "PlanPro\\Views\\Todo\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T17:52:00.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TodoController.cs",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Controllers\\TodoController.cs",
+              "RelativeDocumentMoniker": "PlanPro\\Controllers\\TodoController.cs",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Controllers\\TodoController.cs",
+              "RelativeToolTip": "PlanPro\\Controllers\\TodoController.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAowIYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T17:45:10.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TodoItem.cs",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Models\\TodoItem.cs",
+              "RelativeDocumentMoniker": "PlanPro\\Models\\TodoItem.cs",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Models\\TodoItem.cs",
+              "RelativeToolTip": "PlanPro\\Models\\TodoItem.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T17:39:29.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "PlanPro\\Views\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "PlanPro\\Views\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T08:44:59.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "PlanPro\\Views\\Account\\ResetPassword.cshtml",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeToolTip": "PlanPro\\Views\\Account\\ResetPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T08:44:13.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ResetPasswordViewModel.cs",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Models\\ResetPasswordViewModel.cs",
+              "RelativeDocumentMoniker": "PlanPro\\Models\\ResetPasswordViewModel.cs",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Models\\ResetPasswordViewModel.cs",
+              "RelativeToolTip": "PlanPro\\Models\\ResetPasswordViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T08:43:16.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PlanPro\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PlanPro\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T08:04:19.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "PlanPro\\Models\\RegisterViewModel.cs",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "PlanPro\\Models\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T07:40:14.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PasswordHelper.cs",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Helpers\\PasswordHelper.cs",
+              "RelativeDocumentMoniker": "PlanPro\\Helpers\\PasswordHelper.cs",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Helpers\\PasswordHelper.cs",
+              "RelativeToolTip": "PlanPro\\Helpers\\PasswordHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T03:14:49.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "PlanPro\\Views\\Home\\About.cshtml",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "PlanPro\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T02:45:36.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "PlanPro\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "PlanPro\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T02:45:22.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PlanPro\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PlanPro\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABABAAAAAAAAAAApwBcBAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T02:44:03.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Web.config",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Web.config",
+              "RelativeDocumentMoniker": "PlanPro\\Web.config",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Web.config",
+              "RelativeToolTip": "PlanPro\\Web.config",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwBQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-07-01T02:33:06.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Models\\User.cs",
+              "RelativeDocumentMoniker": "PlanPro\\Models\\User.cs",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Models\\User.cs",
+              "RelativeToolTip": "PlanPro\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T17:21:19.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PlanPro\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PlanPro\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAxwCMAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T17:18:34.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "PlanPro\\Views\\Account\\Login.cshtml",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "PlanPro\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAxwG8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T17:17:58.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "PlanPro\\Views\\Account\\Register.cshtml",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "PlanPro\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T17:17:06.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "PlanPro\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "PlanPro\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAQwI8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T11:38:50.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "PlanProDB.edmx [Diagram1]",
+              "DocumentMoniker": "E:\\Nethmi\\PlanPro\\PlanPro\\Models\\PlanProDB.edmx",
+              "RelativeDocumentMoniker": "PlanPro\\Models\\PlanProDB.edmx",
+              "ToolTip": "E:\\Nethmi\\PlanPro\\PlanPro\\Models\\PlanProDB.edmx [Diagram1]",
+              "RelativeToolTip": "PlanPro\\Models\\PlanProDB.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-06-30T11:28:30.969Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

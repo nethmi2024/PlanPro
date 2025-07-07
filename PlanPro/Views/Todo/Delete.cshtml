@@ -1,0 +1,121 @@
+﻿@model PlanPro.Models.TodoItem
+
+@{
+    ViewBag.Title = "Delete Task";
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+
+    .body {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .card {
+        background: #ffffff;
+        border: none;
+        border-radius: 1.5rem;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+        transition: box-shadow 0.3s ease;
+        margin-bottom: 40px;
+    }
+
+        .card:hover {
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+        }
+
+    .card-header {
+        font-size: 1.5rem;
+        font-weight: 700;
+        background-color: #dc3545;
+        color: white;
+        border-radius: 1.5rem 1.5rem 0 0;
+        padding: 1rem 1.5rem;
+    }
+
+    .btn-danger {
+        background: linear-gradient(to right, #dc3545, #c82333);
+        border: none;
+        border-radius: 0.75rem;
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+        font-weight: 600;
+        transition: all 0.3s ease-in-out;
+        color: #fff;
+    }
+
+        .btn-danger:hover {
+            background: linear-gradient(to right, #c82333, #a71d2a);
+            transform: scale(1.02);
+        }
+
+    .text-danger {
+        font-weight: 600;
+    }
+
+    dl.row dt {
+        font-weight: 600;
+        color: #6c757d;
+    }
+
+    .d-grid {
+        gap: 1rem;
+    }
+
+    .back-link {
+        text-decoration: none;
+        color: #6c757d;
+        font-weight: 600;
+        transition: color 0.3s ease-in-out;
+    }
+
+        .back-link:hover {
+            color: #1cc88a;
+        }
+</style>
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-10 col-lg-8">
+            <div class="card">
+                <div class="card-header">
+                    Delete Todo Item
+                </div>
+                <div class="card-body p-4">
+                    <h5 class="text-danger mb-3">Are you sure you want to delete this item?</h5>
+                    <hr />
+                    <dl class="row">
+                        <dt class="col-sm-4">Title</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Title)</dd>
+
+                        <dt class="col-sm-4">Description</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Description)</dd>
+
+                        <dt class="col-sm-4">Due Date</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.DueDate)</dd>
+
+                        <dt class="col-sm-4">Completed</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.IsCompleted)</dd>
+
+                        <dt class="col-sm-4">Priority</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Priority)</dd>
+
+                        <dt class="col-sm-4">Created At</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.CreatedAt)</dd>
+
+                    </dl>
+
+                    @using (Html.BeginForm())
+                    {
+                        @Html.AntiForgeryToken()
+                        <div class="d-grid d-md-flex justify-content-between align-items-center mt-4">
+                            <input type="submit" value="Delete" class="btn btn-danger" />
+                            @Html.ActionLink("← Back to List", "Index", null, new { @class = "back-link" })
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

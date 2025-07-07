@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="DayPlans">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ItineraryId" Type="int" Nullable="false" />
+    <Property Name="Date" Type="date" Nullable="false" />
+    <Property Name="Activities" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Expense">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="Amount" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Category" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Date" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FinancialGoals">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="GoalName" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="TargetAmount" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Deadline" Type="date" />
+  </EntityType>
+  <EntityType Name="GalleryFolders">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FolderName" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GalleryImages">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ImageTitle" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="ImagePath" Type="nvarchar" MaxLength="500" />
+    <Property Name="FolderId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Itineraries">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TravelPlanId" Type="int" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Description" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Messages">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Content" Type="nvarchar" MaxLength="500" Nullable="false" />
+    <Property Name="Category" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MonthlyIncomes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="Amount" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Month" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TodoItems">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="DueDate" Type="datetime" />
+    <Property Name="IsCompleted" Type="bit" />
+    <Property Name="Priority" Type="nvarchar" MaxLength="10" />
+    <Property Name="CreatedAt" Type="datetime" />
+  </EntityType>
+  <EntityType Name="TravelPlan">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="Destination" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="StartDate" Type="date" Nullable="false" />
+    <Property Name="EndDate" Type="date" Nullable="false" />
+    <Property Name="Notes" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FullName" Type="nvarchar" MaxLength="100" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="Password" Type="nvarchar" MaxLength="100" />
+    <Property Name="ResetToken" Type="nvarchar" MaxLength="255" />
+    <Property Name="TokenExpiry" Type="datetime" />
+  </EntityType>
+  <Association Name="FK__TodoItems__UserI__286302EC">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="TodoItems" Type="Self.TodoItems" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TodoItems">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DayPlans_Itineraries">
+    <End Role="Itineraries" Type="Self.Itineraries" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="DayPlans" Type="Self.DayPlans" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Itineraries">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DayPlans">
+        <PropertyRef Name="ItineraryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Expense_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Expense" Type="Self.Expense" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Expense">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FinancialGoals_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="FinancialGoals" Type="Self.FinancialGoals" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FinancialGoals">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GalleryFolders_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="GalleryFolders" Type="Self.GalleryFolders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="GalleryFolders">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GalleryImages_Folders">
+    <End Role="GalleryFolders" Type="Self.GalleryFolders" Multiplicity="1" />
+    <End Role="GalleryImages" Type="Self.GalleryImages" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GalleryFolders">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="GalleryImages">
+        <PropertyRef Name="FolderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Itineraries_TravelPlans">
+    <End Role="TravelPlan" Type="Self.TravelPlan" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Itineraries" Type="Self.Itineraries" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TravelPlan">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Itineraries">
+        <PropertyRef Name="TravelPlanId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MonthlyIncomes_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="MonthlyIncomes" Type="Self.MonthlyIncomes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="MonthlyIncomes">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TravelPlan_User">
+    <End Role="Users" Type="Self.Users" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="TravelPlan" Type="Self.TravelPlan" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TravelPlan">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="DayPlans" EntityType="Self.DayPlans" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Expense" EntityType="Self.Expense" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FinancialGoals" EntityType="Self.FinancialGoals" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GalleryFolders" EntityType="Self.GalleryFolders" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GalleryImages" EntityType="Self.GalleryImages" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Itineraries" EntityType="Self.Itineraries" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Messages" EntityType="Self.Messages" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MonthlyIncomes" EntityType="Self.MonthlyIncomes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TodoItems" EntityType="Self.TodoItems" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TravelPlan" EntityType="Self.TravelPlan" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__TodoItems__UserI__286302EC" Association="Self.FK__TodoItems__UserI__286302EC">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="TodoItems" EntitySet="TodoItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DayPlans_Itineraries" Association="Self.FK_DayPlans_Itineraries">
+      <End Role="Itineraries" EntitySet="Itineraries" />
+      <End Role="DayPlans" EntitySet="DayPlans" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Expense_Users" Association="Self.FK_Expense_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Expense" EntitySet="Expense" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FinancialGoals_Users" Association="Self.FK_FinancialGoals_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="FinancialGoals" EntitySet="FinancialGoals" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GalleryFolders_Users" Association="Self.FK_GalleryFolders_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="GalleryFolders" EntitySet="GalleryFolders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GalleryImages_Folders" Association="Self.FK_GalleryImages_Folders">
+      <End Role="GalleryFolders" EntitySet="GalleryFolders" />
+      <End Role="GalleryImages" EntitySet="GalleryImages" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Itineraries_TravelPlans" Association="Self.FK_Itineraries_TravelPlans">
+      <End Role="TravelPlan" EntitySet="TravelPlan" />
+      <End Role="Itineraries" EntitySet="Itineraries" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MonthlyIncomes_Users" Association="Self.FK_MonthlyIncomes_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="MonthlyIncomes" EntitySet="MonthlyIncomes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TravelPlan_User" Association="Self.FK_TravelPlan_User">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="TravelPlan" EntitySet="TravelPlan" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

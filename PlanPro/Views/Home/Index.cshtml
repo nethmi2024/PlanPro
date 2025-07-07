@@ -1,0 +1,395 @@
+﻿@model List<PlanPro.Models.Message>
+@{
+    ViewBag.Title = "Home Page";
+    var totalMessages = Model.Count;
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+    body {
+        font-family: 'Inter', sans-serif;
+        background: linear-gradient(135deg, #f5f7fa, #e4ecf4);
+        margin: 0;
+        padding: 0;
+        color: #2e2e2e;
+    }
+
+    main {
+        padding: 60px 20px;
+        max-width: 1300px;
+        margin: auto;
+    }
+
+    .hero {
+        background: linear-gradient(to right, #4e73df, #1cc88a);
+        color: white;
+        padding: 90px 40px;
+        border-radius: 30px;
+        text-align: center;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+        margin-bottom: 70px;
+        animation: fadeInDown 0.9s ease;
+    }
+
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            opacity: 0.95;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+    #message-container {
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: #4f46e5;
+        margin-bottom: 50px;
+    }
+
+    .row {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 30px;
+        justify-content: center;
+        margin-top: 130px;
+        margin-bottom: 50px;
+    }
+
+    .card {
+        background: #ffffff;
+        border-radius: 22px;
+        padding: 30px 25px;
+        text-align: center;
+        box-shadow: 8px 8px 20px #cfd8e4, -8px -8px 20px #ffffff;
+        transition: all 0.3s ease-in-out;
+        border: none;
+        position: relative;
+        overflow: hidden;
+    }
+
+        .card:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 12px 12px 25px #c0cadb, -12px -12px 25px #ffffff;
+        }
+
+    .card-icon {
+        font-size: 2.8rem;
+        color: #4e73df;
+        margin-bottom: 18px;
+        display: inline-block;
+        transition: transform 0.3s ease;
+    }
+
+    .card:hover .card-icon {
+        transform: scale(1.2);
+        color: #1cc88a;
+    }
+
+
+    .card-title {
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: #333;
+        margin-bottom: 12px;
+    }
+
+    .card-text {
+        font-size: 1rem;
+        color: #555;
+        margin-bottom: 25px;
+        opacity: 0.9;
+    }
+
+    .btn-outline-primary {
+        display: inline-block;
+        border: 2px solid #3b4cca;
+        color: #3b4cca;
+        background-color: transparent;
+        border-radius: 30px;
+        padding: 10px 24px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+
+        .btn-outline-primary:hover {
+            background-color: #3b4cca;
+            color: white;
+            box-shadow: 0 4px 12px rgba(79, 70, 229, 0.2);
+        }
+
+
+
+    @@media (max-width: 768px) {
+        .hero h1 {
+            font-size: 2.2rem;
+        }
+
+        .hero p {
+            font-size: 1.05rem;
+        }
+
+        .card {
+            padding: 25px 18px;
+        }
+    }
+
+
+    .testimonials-modern {
+        max-width: 1100px;
+        margin: 100px auto 60px;
+        padding: 60px 30px;
+        background: rgba(255, 255, 255, 0.4);
+        border-radius: 28px;
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.05);
+        backdrop-filter: blur(12px);
+        text-align: center;
+        animation: fadeInUp 0.9s ease forwards;
+    }
+
+    .testimonials-heading {
+        font-size: 2.4rem;
+        font-weight: 700;
+        margin-bottom: 50px;
+        color: #1e1e2f;
+    }
+
+    .testimonials-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 30px;
+    }
+
+    .testimonial-box {
+        background: #ffffff;
+        padding: 30px 25px;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        position: relative;
+        text-align: center;
+        border: 1px solid #e5eaf1;
+    }
+
+        .testimonial-box:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 18px 45px rgba(0, 0, 0, 0.08);
+        }
+
+    .testimonial-quote {
+        font-size: 1.1rem;
+        font-style: italic;
+        color: #333;
+        margin-bottom: 20px;
+        line-height: 1.6;
+    }
+
+    .testimonial-name {
+        font-size: 1rem;
+        font-weight: 600;
+        color: #2b2b2b;
+    }
+
+    @@keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(40px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @@media (max-width: 768px) {
+        .testimonials-heading {
+            font-size: 2rem;
+        }
+
+        .testimonial-quote {
+            font-size: 1rem;
+        }
+    }
+
+    .btn-cta {
+        padding: 14px 30px;
+        background-color: #fff;
+        color: #4e73df;
+        font-weight: 600;
+        border-radius: 30px;
+        text-decoration: none;
+        font-size: 1rem;
+        transition: all 0.3s ease;
+    }
+
+        .btn-cta:hover {
+            background-color: #f0f4ff;
+            color: #1a2d8f;
+        }
+
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 28px; 
+    }
+
+    #message-container {
+        max-width: 700px;
+        margin: 0 auto 60px auto;
+        background: #f9fafb; 
+        border-left: 6px solid #374151; 
+        border-radius: 8px;
+        padding: 20px 25px 20px 35px;
+        box-shadow: 0 4px 10px rgba(55, 65, 81, 0.1);
+        font-size: 1.25rem;
+        font-weight: 500;
+        color: #111827; 
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        font-family: 'Inter', sans-serif;
+        letter-spacing: 0.03em;
+    }
+
+        #message-container .message-icon {
+            font-size: 2.4rem;
+            color: #6b7280; 
+            flex-shrink: 0;
+            user-select: none;
+        }
+
+    @@keyframes slideFadeIn {
+        0% {
+            opacity: 0;
+            transform: translateX(-30px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    #message-container {
+        animation: slideFadeIn 0.7s ease forwards;
+    }
+
+    @@media (max-width: 640px) {
+        #message-container {
+            font-size: 1.1rem;
+            padding: 18px 20px 18px 28px;
+            gap: 14px;
+        }
+
+            #message-container .message-icon {
+                font-size: 1.8rem;
+            }
+    }
+</style>
+
+
+<main>
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Welcome to PlanPro</h1>
+            <p>Your all-in-one hub for achieving life goals with clarity and control.</p>
+            <a href="@Url.Action("Register", "Account")" class="btn-cta">Get Started Now</a>
+        </div>
+    </div>
+
+
+    <div id="message-container">
+        <i class="fas fa-quote-left message-icon"></i>
+        <span class="message-text">Loading message...</span>
+    </div>
+
+    <div class="row">
+
+        <div class="card">
+            <i class="fas fa-check-circle card-icon"></i>
+            <h5 class="card-title">Manage Your To-Dos</h5>
+            <p class="card-text">Organize tasks efficiently and stay on top of your daily goals.</p>
+            <a href="@Url.Action("Index", "ToDo")" class="btn-outline-primary">View To-Do List</a>
+        </div>
+
+        <div class="card">
+            <i class="fas fa-wallet card-icon"></i>
+            <h5 class="card-title">Track Finances</h5>
+            <p class="card-text">Monitor expenses, plan budgets, and achieve financial goals.</p>
+            <a href="@Url.Action("Index", "Financial")" class="btn-outline-primary">Go to Finances</a>
+        </div>
+
+        <div class="card">
+            <i class="fas fa-image card-icon"></i>
+            <h5 class="card-title">Photo Gallery</h5>
+            <p class="card-text">Store and browse your favorite memories and inspirations.</p>
+            <a href="@Url.Action("Index", "Gallery")" class="btn-outline-primary">View Gallery</a>
+        </div>
+
+        <div class="card">
+            <i class="fas fa-map-marked-alt card-icon"></i>
+            <h5 class="card-title">Plan Your Travels</h5>
+            <p class="card-text">Craft and organize your upcoming adventures with ease.</p>
+            <a href="@Url.Action("Index", "TravelPlans")" class="btn-outline-primary">Explore Travel Plans</a>
+        </div>
+
+    </div>
+
+
+    <div class="testimonials-modern">
+        <h2 class="testimonials-heading">What Our Users Say</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-box">
+                <p class="testimonial-quote">"PlanPro completely changed the way I organize my life. I never miss a task now!"</p>
+                <p class="testimonial-name">– Maya R.</p>
+            </div>
+            <div class="testimonial-box">
+                <p class="testimonial-quote">"The finance tracker helped me take control of my expenses. Highly recommended."</p>
+                <p class="testimonial-name">– Dinesh P.</p>
+            </div>
+
+        </div>
+    </div>
+
+</main>
+
+@section scripts {
+    <script>
+    const messages = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model));
+    const container = document.getElementById('message-container');
+    const iconElement = container.querySelector('.message-icon');
+    const textElement = container.querySelector('.message-text');
+
+    function showMessage() {
+        const now = new Date();
+        const totalMessages = messages.length;
+
+        if (totalMessages === 0) {
+            textElement.innerText = "No messages available.";
+            iconElement.className = "fas fa-info-circle message-icon";
+            return;
+        }
+
+        const index = now.getHours() % totalMessages;
+
+        // Keep icon static for simplicity
+        iconElement.className = "fas fa-quote-left message-icon";
+
+        textElement.innerText = messages[index].Content;
+    }
+
+    showMessage();
+    setInterval(showMessage, 3600000);
+    </script>
+}
